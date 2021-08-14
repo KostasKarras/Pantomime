@@ -188,9 +188,11 @@ public class Play extends AppCompatActivity {
                 intent.putExtras(bundle2);
 
                 startActivity(intent);
+                finish();
             } else {
                 Intent intent = new Intent(this, Result.class);
                 startActivity(intent);
+                finish();
             }
         });
 
@@ -230,9 +232,11 @@ public class Play extends AppCompatActivity {
                 intent.putExtras(bundle2);
 
                 startActivity(intent);
+                finish();
             } else {
                 Intent intent = new Intent(this, Result.class);
                 startActivity(intent);
+                finish();
             }
         });
     }

@@ -48,8 +48,7 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void exit(View v){
-        android.os.Process.killProcess(android.os.Process.myPid());
-        System.exit(0);
+        finish();
     }
 
     public void settings(View v){
